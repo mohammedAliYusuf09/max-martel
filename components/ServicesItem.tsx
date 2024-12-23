@@ -1,17 +1,23 @@
-import React from 'react'
-import { Krub } from 'next/font/google'
+import React from "react";
+import { Krub } from "next/font/google";
 
-const krub = Krub({ 
-    weight: '400',
-    subsets: ['latin']});
+const krub = Krub({
+  weight: "400",
+  subsets: ["latin"],
+});
 
-function ServicesItem({title, description}) {
-  return (
-    <div className=''>
-        <h4 className={`${krub.className} text-xl sm:text-lg`}>{title}</h4>
-        <p className={`${krub.className} mt-2 sm:text-base`}>{description}</p>
-    </div>
-  )
+interface ServicesItemProps {
+  title: string; // Title for the service
+  description: string; // Description of the service
 }
 
-export default ServicesItem
+const ServicesItem: React.FC<ServicesItemProps> = ({ title, description }) => {
+  return (
+    <div>
+      <h4 className={`${krub.className} text-xl sm:text-lg`}>{title}</h4>
+      <p className={`${krub.className} mt-2 sm:text-base`}>{description}</p>
+    </div>
+  );
+};
+
+export default ServicesItem;

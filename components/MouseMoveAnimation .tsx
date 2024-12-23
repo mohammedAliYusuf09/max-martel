@@ -8,7 +8,7 @@ const MouseMoveAnimation = () => {
   const circleRef = useRef(null);
 
   useEffect(() => {
-    const handleMouseMove = (e) => {
+    const handleMouseMove = (e: MouseEvent) => {
       gsap.to(circleRef.current, {
         x: e.clientX,
         y: e.clientY,

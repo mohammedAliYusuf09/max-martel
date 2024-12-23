@@ -34,9 +34,6 @@ function Testimonial() {
             <TestimonialCard key={index} {...testi}/>
             )}
         </div>
-
-       
-
     </div>
   )
 }

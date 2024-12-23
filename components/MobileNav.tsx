@@ -7,7 +7,7 @@ import { gsap } from "gsap";
 
 const MobileNav = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const navRef = useRef(null);
+  const navRef = useRef<HTMLDivElement | null>(null);
 
   const openMenu = () => {
     setIsOpen(true);
@@ -20,12 +20,18 @@ const MobileNav = () => {
   };
 
   // Close the menu when clicking outside
-  useEffect(() => {
-    const handleOutsideClick = (e) => {
-      if (navRef.current && !navRef.current.contains(e.target)) {
-        closeMenu();
-      }
-    };
+  // useEffect(() => {
+  //   const handleOutsideClick = (e) => {
+  //     if (navRef.current && !navRef.current.contains(e.target)) {
+  //       closeMenu();
+  //     }
+  //   };
+    useEffect(() => {
+      const handleOutsideClick = (e: MouseEvent) => {
+        if (navRef.current && !navRef.current.contains(e.target as Node)) {
+          closeMenu();
+        }
+      };
 
     if (isOpen) {
       document.addEventListener("mousedown", handleOutsideClick);
