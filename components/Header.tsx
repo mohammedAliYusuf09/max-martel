@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import React from 'react'
 import { usePathname } from 'next/navigation';
+import MobileNav from './MobileNav';
 
 function Header() {
 
@@ -25,6 +26,9 @@ function Header() {
           <li className={`hover:border-b hover:border-gray-600 ease-in-outout duration-200 ${isContactPage? 'border-b border-gray-600' : ''}`}><Link href={'/contact'}>Contact</Link></li>   
         </ul>
       </div>
+    </div>
+    <div className='w-screen bg-white block md:hidden'>
+    <MobileNav/>
     </div>
     </>
     

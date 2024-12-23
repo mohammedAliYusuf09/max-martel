@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import MobileNav from "@/components/MobileNav";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,14 +15,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      
       <body
         className='background-color-gradient '
       >
         <div className="fixed z-40 ">
           <Header/>
         </div>
-        <MobileNav/>
         {children}
         <div className="bg-[#272727] text-white">
           <Footer/>

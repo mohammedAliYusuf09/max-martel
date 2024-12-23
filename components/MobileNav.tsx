@@ -1,5 +1,4 @@
-// components/MobileNav.js
-"use client"; // For Next.js 13+ with App Router
+"use client"; 
 
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
@@ -19,13 +18,6 @@ const MobileNav = () => {
     gsap.to(navRef.current, { x: "-100%", duration: 0.5, ease: "power3.in" });
   };
 
-  // Close the menu when clicking outside
-  // useEffect(() => {
-  //   const handleOutsideClick = (e) => {
-  //     if (navRef.current && !navRef.current.contains(e.target)) {
-  //       closeMenu();
-  //     }
-  //   };
     useEffect(() => {
       const handleOutsideClick = (e: MouseEvent) => {
         if (navRef.current && !navRef.current.contains(e.target as Node)) {
@@ -45,20 +37,19 @@ const MobileNav = () => {
   return (
     <>
       {/* Menu button */}
-      <button onClick={openMenu} className="menu-button md:hidden">
+      <button onClick={openMenu} className="text-black md:p-4 p-3 md:hidden">
         ☰
       </button>
 
       {/* Mobile navigation menu */}
       <nav
         ref={navRef}
-        className="mobile-nav"
+        className="mobile-nav bg-[#272727]"
         style={{ transform: "translateX(-100%)" }}
       >
         <ul>
           <li>
-          
-            <Link href="/" onClick={closeMenu}>Home</Link>
+            <Link href="/" onClick={closeMenu}>{'[Max]'}</Link>
           </li>
           <li>
             <Link href={"/about"} onClick={closeMenu}>About</Link>
