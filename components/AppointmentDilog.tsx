@@ -14,14 +14,24 @@ function AppointmentDilog() {
 
     
 
+type AppointmentFormFields = 'name' | 'date' | 'time';
 
+const AppointmentAction = (formData: FormData) => {
+    const getField = (key: AppointmentFormFields) => formData.get(key) as string | null;
 
-    const AppointmentAction = (formData) => {
-        const name = formData.get('name');
-        const date = formData.get('date');
-        const time = formData.get('time');
-        toast(`${name} You have an appointment on ${date}, ${time} | it is a dammy website`);
+    const name = getField('name');
+    const date = getField('date');
+    const time = getField('time');
+
+    toast(`${name} You have an appointment on ${date}, ${time} | it is a dammy website`);
+
+    if (!name || !date || !time) {
+        throw new Error("All fields are required");
     }
+};
+
+
+    
 
   return (
     <>

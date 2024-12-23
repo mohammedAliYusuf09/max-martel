@@ -1,6 +1,5 @@
 import React from 'react'
 import WhiteButton from './WhiteButton'
-import BlackButton from './BlackButton'
 import Image from 'next/image'
 import ctaOne from '@/public/images/image-one.jpg'
 import ctaTwo from '@/public/images/image-two.jpg'

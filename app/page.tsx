@@ -1,5 +1,4 @@
 import CallToAction from "@/components/CallToAction";
-import Footer from "@/components/Footer";
 import HomeHero from "@/components/HomeHero";
 import Testimonial from "@/components/Testimonial";
 

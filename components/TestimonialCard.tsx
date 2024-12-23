@@ -1,7 +1,5 @@
 import Image from 'next/image';
 import React from 'react'
-import tstOne from '@/public/images/tst-img-one.jpg'
-import { FaStar } from "react-icons/fa";
 
 function TestimonialCard({testimoni, name, image}) {
   return (

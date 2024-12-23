@@ -3,7 +3,6 @@ import TestimonialCard from './TestimonialCard'
 import AyshaKhan from '@/public/images/tst-img-one.jpg'
 import DavidLee from '@/public/images/tst-img-two.jpg'
 import SarahMiller from '@/public/images/tst-img-foure.png'
-import { CarouselSpacing } from './CarouselSpacing'
 // import TestimonialCardMobile from './TestimonialCardMobile'
 
 function Testimonial() {

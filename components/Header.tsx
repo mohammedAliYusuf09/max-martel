@@ -1,18 +1,6 @@
 'use client'
 import Link from 'next/link'
 import React from 'react'
-import { TiThMenu } from "react-icons/ti";
-
-import {
-    Sheet,
-    SheetClose,
-    SheetContent,
-    SheetDescription,
-    SheetHeader,
-    SheetTitle,
-    SheetTrigger,
-  } from "@/components/ui/sheet"
-import MobileNav from './MobileNav';
 import { usePathname } from 'next/navigation';
 
 function Header() {

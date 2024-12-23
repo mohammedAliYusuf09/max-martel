@@ -1,6 +1,5 @@
 import BlackButton from '@/components/BlackButton'
 import FormItem from '@/components/FormItem'
-import WhiteButton from '@/components/WhiteButton'
 import React from 'react'
 
 function ContactPage() {
