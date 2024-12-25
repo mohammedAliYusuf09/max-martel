@@ -12,7 +12,7 @@ function MyTeam() {
         <p className='font-actor-regular text-lg mt-[2rem]'>Our dedicated team is committed to providing you with the highest quality dental care. We pride ourselves on creating a warm and welcoming environment where you can feel comfortable and relaxed. Our experienced hygienists are skilled in providing thorough cleanings, removing plaque and tartar, and educating patients on proper oral hygiene techniques. Our dental assistants are trained to assist the dentist during procedures, ensuring a smooth and efficient experience.</p>
         <div className='flex gap-6 items-center justify-center mt-10'>
         {/* <TeamMember name={'Lachlan'} image={Lachlan}/> */}
-        <div className="flex flex-col gap-10 drop-shadow-2xl h-[11rem] w-[4rem] sm:h-[16rem] sm:w-[6rem] md:h-[23rem] md:w-[9rem] lg:h-[28rem] lg:w-[12rem] overflow-clip bg-blue rounded-full text-white items-center justify-between hover:scale-125 ease-in duration-300">
+        <div className="flex flex-col gap-10 drop-shadow-2xl h-[11rem] w-[4rem] sm:h-[16rem] sm:w-[6rem] md:h-[23rem] md:w-[9rem] lg:h-[28rem] lg:w-[12rem] overflow-clip gbg-blue rounded-full text-white items-center justify-between hover:scale-125 ease-in duration-300">
               <h4 className="mt-10 font-julius-sans-one-regular sm:text-lg text-xs">
                 Lachlan
               </h4>
@@ -22,7 +22,7 @@ function MyTeam() {
         </div>
         {/* <TeamMember name={'Jackson'} image={Jackson}/>
          */}
-        <div className="flex flex-col gap-10 drop-shadow-2xl h-[11rem] w-[4rem] sm:h-[16rem] sm:w-[6rem] md:h-[23rem] md:w-[9rem] lg:h-[28rem] lg:w-[12rem] overflow-clip bg-blue rounded-full text-white items-center justify-between hover:scale-125 ease-in duration-300">
+        <div className="flex flex-col gap-10 drop-shadow-2xl h-[11rem] w-[4rem] sm:h-[16rem] sm:w-[6rem] md:h-[23rem] md:w-[9rem] lg:h-[28rem] lg:w-[12rem] overflow-clip gbg-blue rounded-full text-white items-center justify-between hover:scale-125 ease-in duration-300">
               <h4 className="mt-10 font-julius-sans-one-regular sm:text-lg text-xs">
               Jackson
               </h4>
@@ -32,7 +32,7 @@ function MyTeam() {
         </div>
         {/* <TeamMember name={'Ethan'} image={Ethan}/>
          */}
-         <div className="flex flex-col gap-10 drop-shadow-2xl h-[11rem] w-[4rem] sm:h-[16rem] sm:w-[6rem] md:h-[23rem] md:w-[9rem] lg:h-[28rem] lg:w-[12rem] overflow-clip bg-blue rounded-full text-white items-center justify-between hover:scale-125 ease-in duration-300">
+         <div className="flex flex-col gap-10 drop-shadow-2xl h-[11rem] w-[4rem] sm:h-[16rem] sm:w-[6rem] md:h-[23rem] md:w-[9rem] lg:h-[28rem] lg:w-[12rem] overflow-clip gbg-blue rounded-full text-white items-center justify-between hover:scale-125 ease-in duration-300">
               <h4 className="mt-10 font-julius-sans-one-regular sm:text-lg text-xs">
               Ethan
               </h4>
@@ -41,7 +41,7 @@ function MyTeam() {
             </div>
         </div>
         {/* <TeamMember name={'Harrison'} image={Harrison}/> */}
-        <div className="flex flex-col gap-10 drop-shadow-2xl h-[11rem] w-[4rem] sm:h-[16rem] sm:w-[6rem] md:h-[23rem] md:w-[9rem] lg:h-[28rem] lg:w-[12rem] overflow-clip bg-blue rounded-full text-white items-center justify-between hover:scale-125 ease-in duration-300">
+        <div className="flex flex-col gap-10 drop-shadow-2xl h-[11rem] w-[4rem] sm:h-[16rem] sm:w-[6rem] md:h-[23rem] md:w-[9rem] lg:h-[28rem] lg:w-[12rem] overflow-clip gbg-blue rounded-full text-white items-center justify-between hover:scale-125 ease-in duration-300">
               <h4 className="mt-10 font-julius-sans-one-regular sm:text-lg text-xs">
               Harrison
               </h4>

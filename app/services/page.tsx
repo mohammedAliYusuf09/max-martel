@@ -25,7 +25,7 @@ function ServicessPage() {
 
   return (
     <>
-    <div className='mt-[3rem] md:mt-[0]'>
+    <div className=''>
       <ServicesHero/>
     </div>
     <div className="grid grid-rows-[1fr_1fr] sm:grid-rows-[1fr_1fr_1fr]  lg:grid-cols-[1fr_200px_1fr] lg:grid-rows-none max-w-full">

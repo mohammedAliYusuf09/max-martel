@@ -46,10 +46,10 @@ const AppointmentAction = (formData: FormData) => {
             </DialogDescription>
         </DialogHeader>
         <form className='flex flex-col gap-4' action={AppointmentAction}>
-            <input className='focus:outline-none bg-transparent border-b border-gray-700 py-2 sm:py-4 text-lg' type="text" name="name" id="name" placeholder='Name'/>
+            <input required className='focus:outline-none bg-transparent border-b border-gray-700 py-2 sm:py-4 text-lg' type="text" name="name" id="name" placeholder='Name'/>
             <div className='flex gap-4'>
-                <input className='focus:outline-none bg-transparent border-b border-gray-700 py-2 sm:py-4 text-lg' type="date" name="date" id="date" placeholder='Date'/>
-                <input className='focus:outline-none bg-transparent border-b border-gray-700 py-2 sm:py-4 text-lg' type="time" name="time" id="time" placeholder='Time'/>
+                <input required className='focus:outline-none bg-transparent border-b border-gray-700 py-2 sm:py-4 text-lg' type="date" name="date" id="date" placeholder='Date'/>
+                <input required className='focus:outline-none bg-transparent border-b border-gray-700 py-2 sm:py-4 text-lg' type="time" name="time" id="time" placeholder='Time'/>
             </div>
             <div className='flex justify-end'>
                 <button type='submit' className='bg-black px-3 py-2 rounded-md border border-gray-400 text-white cursor-pointer'>Done</button>

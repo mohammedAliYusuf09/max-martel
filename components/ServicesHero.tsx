@@ -7,7 +7,7 @@ import Image from 'next/image'
 function ServicesHero() {
   return (
     <div className='max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg min-h-screen pb-4 flex flex-col md:flex-row gap-8 justify-center items-center m-auto px-4'>
-        <div className='md:w-[70%] flex flex-col gap-4'>
+        <div className='md:w-[70%] flex flex-col gap-4 mt-[3rem] md:mt-[0] '>
           <h2 className='font-karla text-3xl md:text-5xl'>We are providing  various high quality 
             services including braces</h2>
             <p className='font-actor-regular text-lg'>At max-martel, we offer a comprehensive range of dental services to meet your unique needs. From routine check-ups and cleanings to complex procedures like implants and cosmetic dentistry, our experienced team is here to provide you with the highest quality care.</p>

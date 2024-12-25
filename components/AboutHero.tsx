@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import AboutImage from '@/public/images/about-image.jpg'
 import React from 'react'
-import WhiteButton from './WhiteButton'
+import AppointmentDilog from './AppointmentDilog'
 
 
 
@@ -17,7 +17,7 @@ function AboutHero() {
             <p className='font-actor-regular'>With years of experience and advanced training, I&#39;m passionate about delivering state-of-the-art dental care. I take pride in staying up-to-date with the latest techniques and technologies to provide you with the best possible care.</p>
             <p className='font-karla text-lg'>364-366 Oxford St - Sydney -  
             New South Wales</p>
-            <WhiteButton>Apointment &#8594;</WhiteButton>
+            <AppointmentDilog/>
         </div>
     </div>
   )
